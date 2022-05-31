@@ -1,0 +1,21 @@
+> init
+<<<
++ 1.txt d.txt
++ 2.txt wug.txt
++ 3.txt notwug.txt
+> add 1.txt
+<<<
+> add 2.txt
+<<<
+> commit "1 and 2"
+<<<
+> branch b2
+<<<
+> checkout b2
+- There is an untracked file in the way; delete it, or add and commit it first.
+<<<
+- 3.txt
+> rm 1.txt
+<<<
+> commit "rm 1 and add 3"
+<<<

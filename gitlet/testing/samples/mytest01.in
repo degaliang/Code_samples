@@ -1,0 +1,36 @@
+I setup1.inc
+> rm f.txt
+<<<
+> rm g.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
++ x.txt d.txt
++ y.txt d.txt
+> branch x
+<<<
+> branch y
+<<<
+> checkout x
+- There is an untracked file in the way; delete it, or add and commit it first.
+<<<
+> add x.txt
+<<<
+> add y.txt
+<<<
+> commit "test"
+<<<
+> checkout x
+- There is an untracked file in the way; delete it, or add and commit it first.
+<<<

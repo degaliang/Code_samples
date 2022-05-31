@@ -1,0 +1,16 @@
+I setup2.inc
+> branch a
+<<<
+> branch b
+<<<
++ a.txt wug.txt
++ b.txt wug.txt
+> checkout a
+- There is an untracked file in the way; delete it, or add and commit it first.
+<<<
+> add a.txt
+<<<
+> add b.txt
+<<<
+> checkout b
+<<<

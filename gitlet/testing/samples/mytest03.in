@@ -1,0 +1,29 @@
+I setup2.inc
+> rm f.txt
+<<<
+> rm g.txt
+<<<
++ test.txt wug.txt
+> add test.txt
+<<<
+> commit "rm f and g, add test"
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> branch a
+<<<
+> branch b
+<<<
+> checkout a
+<<<
